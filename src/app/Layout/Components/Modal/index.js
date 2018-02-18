@@ -8,6 +8,8 @@ const ModalView = ({label, history, children}) => (
         isOpen={true}
         contentLabel={label}
         onRequestClose={history.goBack}
+        className="Modal"
+        overlayClassName="Overlay"
     >
         {children}
     </Modal>
