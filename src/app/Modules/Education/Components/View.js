@@ -12,7 +12,7 @@ export default ({list, children}) => (
                     <div className="col-md-8">
                         <li className='title'>{item.institution}</li>
                         <li className='content'>{item.description}</li>
-                        <li className='content'>{item.year}</li>
+                        <li className='content'>{item.skills}</li>
                     </div>
                 </ul>
                 {children}
