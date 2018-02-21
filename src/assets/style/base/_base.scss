@@ -1,14 +1,21 @@
 html {
-  width:100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/image.jpg');
-  background-position:center;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/image.jpg');
+  //background-color: black;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height:100%;
-
+  height: 100vh;
+  overflow: hidden;
 }
 
-  body {
-    background-color: transparent !important;
-    color: white;
+
+body {
+  background-color: transparent !important;
+  color: white;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
 }
