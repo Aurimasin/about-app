@@ -30,7 +30,14 @@ const api = {
         id1: {
             user: "IT Administrator",
             company: "Water supply networks",
-            description:"Provide technical support for both hardware and software issues.",
+            description:"Provide technical support for both hardware and software issues.\n" +
+            "Manage the configuration and operation of client-based computer operating systems.\n" +
+            "Monitor the system and respond immediately to security or usability concerns.\n" +
+            "Create and verify backups of data.\n" +
+            "Respond to and resolve help desk requests.\n" +
+            "Upgrade systems and processes as required for enhanced functionality and security issue resolution.\n" +
+            "Administrate infrastructure, including firewalls, databases, malware protection software and other processes.\n" +
+            "Install and test computer-related equipment.",
             year: '2012 - Now'
         },
         id2: {
