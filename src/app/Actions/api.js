@@ -16,14 +16,14 @@ const api = {
     }),
     getEducation: () => ({
         id1: {
-            institution: "Lithuanian University of Educational Sciences",
-            description: "Bachelor's degree, information technology",
-            year: 2011
-        },
-        id2: {
             institution: "CodeAcademy Vilnius",
             description: "Front-end courses (160h)",
             year: 2017
+        },
+        id2: {
+            institution: "Lithuanian University of Educational Sciences",
+            description: "Bachelor's degree, information technology",
+            year: 2011
         }
     }),
     getWork: () => ({
