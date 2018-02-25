@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 
 const ModalView = ({label, history, children}) => (
     <Modal
@@ -8,8 +8,8 @@ const ModalView = ({label, history, children}) => (
         isOpen={true}
         contentLabel={label}
         onRequestClose={history.goBack}
-        className="Modal"
-        overlayClassName="Overlay"
+        className='Modal'
+        overlayClassName='Overlay'
     >
         {children}
     </Modal>

@@ -1,5 +1,5 @@
 import React from 'react';
-import api from '../../../Actions/api'
+import api from '../../../Actions/api';
 import View from '../Components/View';
 
 export default class Work extends React.Component {

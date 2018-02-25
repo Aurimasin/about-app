@@ -1,10 +1,7 @@
 html {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/image.jpg");
-  background-position: center;
-  background-attachment: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/image.jpg"), center, no-repeat, fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden; }
 
@@ -90,7 +87,14 @@ body {
 .home_main {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  margin-top: 20%; }
+  margin-top: 20%;
+  -webkit-animation: fadein 2s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 .home_main h1, h2 {
   font-family: 'Josefin Sans', sans-serif;

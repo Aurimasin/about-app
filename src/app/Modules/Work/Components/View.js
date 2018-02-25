@@ -17,6 +17,6 @@ export default ({list, children}) => (
                 </ul>
                 {children}
             </li>
-        ))}
+        ))};
     </ul>
 );

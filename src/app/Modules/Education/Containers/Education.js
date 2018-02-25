@@ -5,7 +5,7 @@ import View from '../../Education/Components/View';
 export default class Education extends React.Component {
     state = {
         education: []
-    }
+    };
 
     componentDidMount() {
         this.setState({ education: api.getEducation() })
@@ -16,6 +16,6 @@ export default class Education extends React.Component {
             <View list={this.state.education}>
                 <hr/>
             </View>
-        )
-    }
-}
+        );
+    };
+};
